@@ -3,9 +3,4 @@ applications:
   path: target/articulate-1.0.jar
   memory: 1G
   random-route: true
-#  host: articulate-jl
-  instances: 1
-  buildpack: java_buildpack
-  stack: cflinuxfs2
-  env:
-    JAVA_OPTS: -Xss228k
+  instances: 1   
